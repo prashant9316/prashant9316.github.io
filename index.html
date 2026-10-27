@@ -1,43 +1,270 @@
 <!doctype html>
-
-<html lang = "en">
-<!--
-    <header>
-        <title>Prashant Mishra's Portal</title>
-        <link rel="stylesheet" href="css/master.css">
-        <link rel="FaviconIcon" href="images/favicon.ico" type="image/x-icon">
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="name" content="Prashant Mishra's Portal">
-        <meta name="name" content="noindex, nofollow">
-    </header>
-
-    <body>
-        <img src="images/img1.jpg" width="25%" alt="banner">
-        <h1>Prashant Mishra's Portal</h1>
-        <h2>About me</h2>
-        <p>I am professional graphic designer and a hardcore programmer. A machine learning enthusiast and a fan of artificial intelligence.!!!</p>
-        <p> I am currently persuing B.Tech from Maharaja Surajmal Institute of Technology. I am currently in 2nd year.</p>
-        <p>I love working on arduino as well.</p>
-        <h2>Credentials and Portfolio</h2>
-        <p><a href="https://docs.google.com/document/d/1bI-_jN7V5GAdPU8MbA-X1tM11han-I_UrkaNnqiNV8Y/edit?usp=sharing" target="_blank">My Resume</a> | <a href="https://github.com/prashant9316" target = "_blank">Github</a> | <a href="https://www.linkedin.com/in/prashant-mishra-673365166/" target="_blank">LinkedIn</a> </p>
-        <h2>My Work Samples</h2>
-        <p><a href="sample.html">Creativity Joint</a>(My vector illustrations)</p>
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:pgmd.9873@gmail.com" target ="_blank">pgmd.9873@gmail.com</a></p>
-        
-    </body>
-
-    <footer>
-        <hr>
-        <code>copyright (c) 2020 Prashant Mishra</code>
-    
-    </footer>
--->
-
+<html lang="en">
 <head>
-	<meta http-equiv="refresh" content="1; url=https://prashant9316.github.io/profile/"/>
-	Please click here to go to my 
-	<a href="https://prashant9316.github.io/profile/">profile</a>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prashant Mishra — Flight systems &amp; full-stack engineer</title>
+  <meta name="description" content="Prashant Mishra builds drone flight systems — ArduPilot firmware, radio links, ground-control software — and the full-stack web products around them.">
+  <meta name="theme-color" content="#0b0f14" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f5f3ee" media="(prefers-color-scheme: light)">
+  <link rel="canonical" href="https://prashant9316.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Prashant Mishra — Flight systems & full-stack engineer">
+  <meta property="og:description" content="Drone firmware, ground-control software and the web products around them.">
+  <meta property="og:url" content="https://prashant9316.github.io/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Prashant Mishra",
+    "url": "https://prashant9316.github.io/",
+    "jobTitle": "Flight systems & full-stack engineer",
+    "alumniOf": "Maharaja Surajmal Institute of Technology",
+    "sameAs": [
+      "https://github.com/prashant9316",
+      "https://www.linkedin.com/in/prashant-mishra-673365166/"
+    ]
+  }
+  </script>
 </head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Prashant Mishra, home">
+        <span class="mark" aria-hidden="true">PM</span>
+        <span class="brand-name">Prashant Mishra</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#stack">Stack</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle colour theme">
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow mono"><span class="dot" aria-hidden="true"></span> New Delhi, India · open to interesting problems</p>
+          <h1>I build things that fly — and the software that keeps them in the air.</h1>
+          <p class="lede">
+            Hi, I'm Prashant. I work across the whole drone stack: custom ArduPilot firmware and board
+            ports, radio links, ground-control apps, and the web platforms that manage fleets, inventory
+            and customers around them.
+          </p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#work">See my work</a>
+            <a class="btn" href="https://github.com/prashant9316" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="btn btn-ghost" href="mailto:pgmd.9873@gmail.com">Say hello</a>
+          </div>
+        </div>
+
+        <figure class="hud" aria-label="Decorative attitude indicator">
+          <svg viewBox="0 0 200 200" role="img" aria-hidden="true">
+            <defs>
+              <clipPath id="ai-clip"><circle cx="100" cy="100" r="78"/></clipPath>
+            </defs>
+            <g clip-path="url(#ai-clip)">
+              <g class="horizon">
+                <rect x="-100" y="-200" width="400" height="300" class="sky"/>
+                <rect x="-100" y="100" width="400" height="300" class="ground"/>
+                <line x1="-100" y1="100" x2="300" y2="100" class="hline"/>
+                <g class="ladder">
+                  <line x1="80" y1="80" x2="120" y2="80"/><line x1="88" y1="90" x2="112" y2="90"/>
+                  <line x1="88" y1="110" x2="112" y2="110"/><line x1="80" y1="120" x2="120" y2="120"/>
+                  <line x1="80" y1="60" x2="120" y2="60"/><line x1="80" y1="140" x2="120" y2="140"/>
+                </g>
+              </g>
+            </g>
+            <circle cx="100" cy="100" r="78" class="bezel"/>
+            <circle cx="100" cy="100" r="92" class="ring"/>
+            <g class="ticks">
+              <line x1="100" y1="8" x2="100" y2="18"/><line x1="54" y1="20.3" x2="59" y2="29"/>
+              <line x1="146" y1="20.3" x2="141" y2="29"/><line x1="20.3" y1="54" x2="29" y2="59"/>
+              <line x1="179.7" y1="54" x2="171" y2="59"/>
+            </g>
+            <path d="M62 100h24l6 8 8-8 8 8 6-8h24" class="aircraft"/>
+            <circle cx="100" cy="100" r="2.5" class="aircraft-dot"/>
+          </svg>
+          <figcaption class="telemetry mono" aria-hidden="true">
+            <span>ROLL <b data-t="roll">+0.0°</b></span>
+            <span>PITCH <b data-t="pitch">+0.0°</b></span>
+            <span>MODE <b>LOITER</b></span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="focus" aria-labelledby="focus-h">
+      <div class="wrap">
+        <h2 id="focus-h" class="kicker mono">01 — What I do</h2>
+        <div class="focus-grid">
+          <article class="card focus">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="5" cy="5" r="3"/><circle cx="19" cy="5" r="3"/><circle cx="5" cy="19" r="3"/><circle cx="19" cy="19" r="3"/><path d="M7.5 7.5l3 3M16.5 7.5l-3 3M7.5 16.5l3-3M16.5 16.5l-3-3"/><rect x="10" y="10" width="4" height="4" rx="1"/></svg>
+            </div>
+            <h3>Flight systems</h3>
+            <p>ArduPilot / ArduCopter customisation, ChibiOS hardware definitions for new H7 flight controllers, tuning, and ExpressLRS radio-link tooling.</p>
+          </article>
+          <article class="card focus">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4M7 13l3-3 2 2 4-4"/></svg>
+            </div>
+            <h3>Ground control &amp; tools</h3>
+            <p>Desktop ground-control software (Tauri + SolidJS), configurators, web-based firmware flashers and fleet / component trackers.</p>
+          </article>
+          <article class="card focus">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 7l8-4 8 4-8 4-8-4z"/><path d="M4 12l8 4 8-4M4 17l8 4 8-4"/></svg>
+            </div>
+            <h3>Full-stack products</h3>
+            <p>Next.js + TypeScript platforms: multi-tenant e-commerce, seller &amp; admin dashboards, inventory and SaaS apps on MongoDB and Node.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work" aria-labelledby="work-h">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="work-h" class="kicker mono">02 — Selected work</h2>
+          <a class="more" href="https://github.com/prashant9316?tab=repositories" target="_blank" rel="noopener">All repositories ↗</a>
+        </div>
+
+        <div class="work-grid">
+          <article class="card work feature">
+            <p class="tag mono">Firmware · C++ · ChibiOS</p>
+            <h3>ArduCopter 4.6.1 for the ZeroDrag Strix H743</h3>
+            <p>A board port of ArduCopter to a new STM32H743 flight controller — hardware definition, sensor and compass probing, and keeping it current with upstream ArduPilot.</p>
+            <a class="link" href="https://github.com/prashant9316/Arducopter-4.6.1-zerodragstrix" target="_blank" rel="noopener">View source ↗</a>
+          </article>
+          <article class="card work">
+            <p class="tag mono">Next.js 15 · MongoDB</p>
+            <h3>Drone Inventory Tracker</h3>
+            <p>Tracks drone components through builds, with analysis routes for stock and usage. Deployed on Vercel.</p>
+            <a class="link" href="https://github.com/prashant9316/drone-tracker-legacy" target="_blank" rel="noopener">View source ↗</a>
+          </article>
+          <article class="card work">
+            <p class="tag mono">Next.js 15 · NextAuth · shadcn/ui</p>
+            <h3>Expense Management SaaS</h3>
+            <p>Multi-user expense tracking with sign-in, per-site suggestions and scheduled daily reminders.</p>
+            <a class="link" href="https://github.com/prashant9316/Expense-Management" target="_blank" rel="noopener">View source ↗</a>
+          </article>
+        </div>
+
+        <div class="activity" aria-live="polite">
+          <h3 class="mono small-h">Recently pushed on GitHub</h3>
+          <ul class="activity-list" id="activity">
+            <li class="muted">Loading latest activity…</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="stack" aria-labelledby="stack-h">
+      <div class="wrap">
+        <h2 id="stack-h" class="kicker mono">03 — Toolkit</h2>
+        <div class="stack-grid">
+          <div>
+            <h3>Embedded &amp; flight</h3>
+            <ul class="chips">
+              <li>C / C++</li><li>ArduPilot</li><li>ChibiOS</li><li>STM32</li><li>MAVLink</li><li>ExpressLRS</li><li>Arduino</li><li>Python</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Web &amp; apps</h3>
+            <ul class="chips">
+              <li>TypeScript</li><li>React</li><li>Next.js</li><li>SolidJS</li><li>Tauri</li><li>Tailwind</li><li>Node.js</li><li>MongoDB</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Design &amp; media</h3>
+            <ul class="chips">
+              <li>Photoshop</li><li>Illustrator</li><li>After Effects</li><li>Premiere Pro</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-h">
+      <div class="wrap about-grid">
+        <div>
+          <h2 id="about-h" class="kicker mono">04 — About</h2>
+          <p class="big">
+            I started out as a CS student who loved machine learning, Arduino and graphic design in equal measure.
+            These days that curiosity lives in hardware that has to work the first time it leaves the ground.
+          </p>
+          <p>
+            I like owning a problem end-to-end — from a pin map on a flight controller to the dashboard someone
+            uses to ship the finished product. Creativity and authenticity are what I try to bring to every build.
+          </p>
+          <p class="muted">
+            Off the clock: hip-hop culture and street dance (first place, Anugoonj group street-dance competition),
+            football, and re-watching HIMYM more times than I'll admit.
+          </p>
+        </div>
+        <ol class="timeline" aria-label="Timeline">
+          <li>
+            <span class="when mono">Now</span>
+            <span class="what">Drone flight systems, ground-control software and full-stack products</span>
+          </li>
+          <li>
+            <span class="when mono">2018–22</span>
+            <span class="what">B.Tech, Computer Science — Maharaja Surajmal Institute of Technology, New Delhi</span>
+          </li>
+          <li>
+            <span class="when mono">2016</span>
+            <span class="what">Kendriya Vidyalaya, Sector 12 Dwarka, New Delhi</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-h">
+      <div class="wrap">
+        <h2 id="contact-h" class="kicker mono">05 — Contact</h2>
+        <p class="big">Building something that flies, or something that sells? Let's talk.</p>
+        <div class="contact-row">
+          <a class="btn btn-primary" href="mailto:pgmd.9873@gmail.com">pgmd.9873@gmail.com</a>
+          <button class="btn copy" type="button" data-copy="pgmd.9873@gmail.com">Copy email</button>
+        </div>
+        <ul class="socials">
+          <li><a href="https://github.com/prashant9316" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/prashant-mishra-673365166/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/creativity_joint/" target="_blank" rel="noopener">Instagram · Creativity Joint</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner mono">
+      <span>© <span id="year">2026</span> Prashant Mishra</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/site.js" defer></script>
+</body>
 </html>
